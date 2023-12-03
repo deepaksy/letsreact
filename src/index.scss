@@ -1,4 +1,16 @@
+:root{
+    --backgroundColor: white;
+    --textColor: black;
+}
+
+[theme= "dark"]{
+    --backgroundColor: #212121;
+    --textColor: aliceblue;
+}
+
 html,body{
     margin:0;
     box-sizing: border-box;
+    background-color: var(--backgroundColor);
+    color: var(--textColor);
 }
