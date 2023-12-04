@@ -1,11 +1,33 @@
 .navbar-container{
     display: flex;
-    background-color: green;
+    position: sticky;
+    top:0;
+    z-index: 50;
+    background-color: var(--nav-backdround);
+    color:var(--textColor);
     align-items: center;
+    padding: 0rem 1.5rem;
+    transition: box-shadow .3s ease-in-out;
+}
+
+
+.navbar-container.sticky{
+    // background: linear-gradient(315deg,var(--nav-background),var(--nav-links));
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0px 2px 14px 9px var(--nav-shadow), inset 0px -0.5px 0px var(--nav-border);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
 
 .navbar-left,.navbar-right{
     margin: .5rem .2rem;
+}
+
+.navbar-left,.navbar-search-bar{
+    flex-grow: 1;
 }
 
 .react-logo{
