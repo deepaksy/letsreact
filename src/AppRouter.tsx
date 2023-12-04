@@ -6,7 +6,7 @@ Route
 } from 'react-router-dom'
 import App from './App'
 
-import Hello from './Hello.mdx'
+import About from './pages/About'
 import Navbar from './components/Navbar'
 
 const AppRouter = () => {
@@ -15,7 +15,7 @@ const AppRouter = () => {
         <Navbar/>
         <Routes>
             <Route path='/' element={<App/>} />
-            <Route path='/hello' element={<Hello/>} />
+            <Route path='/about' element={<About/>} />
         </Routes>   
     </Router>
   )
