@@ -1,3 +1,23 @@
-nav{
-    background-color: pink;
+.navbar-container{
+    display: flex;
+    background-color: green;
+    align-items: center;
+}
+
+.navbar-left,.navbar-right{
+    margin: .5rem .2rem;
+}
+
+.react-logo{
+    height: 2rem;
+    animation: animate-logo infinite 20s linear;
+}
+
+@keyframes animate-logo {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
