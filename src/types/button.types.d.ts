@@ -1,0 +1,1 @@
+export declare type buttonType = 'theme'|'primary'|'secondary'
