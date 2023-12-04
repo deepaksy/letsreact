@@ -1,9 +1,8 @@
+import Introduction from '../../content/homepage/Introduction.mdx'
 
 const Homepage = () => {
   return (
-    <div>
-        <h1>Homepage</h1>
-    </div>
+    <Introduction/>
   )
 }
 

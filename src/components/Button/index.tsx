@@ -1,9 +1,12 @@
+import { buttonType } from '../../types/button.types'
 import './index.scss'
-export type ButtonTypes = React.ComponentProps<'button'>
+export type ButtonTypes = {
+  variant?: buttonType
+} & React.ComponentProps<'button'>
 
-const Button = ({children, ...props}: ButtonTypes) => {
+const Button = ({children,variant='primary', ...props}: ButtonTypes) => {
   return (
-    <button {...props}>{children}</button>
+    <button className={`button-${variant}`} {...props}>{children}</button>
   )
 }
 
