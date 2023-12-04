@@ -1,0 +1,30 @@
+.button-primary{
+    border: none;
+    background:inherit;
+    color: var(--textColor);
+    padding: .5rem .9rem;
+    margin: .1rem;
+    border-radius: 1rem;
+    transition: background-color .3s ease-in-out;
+}
+
+.button-primary:hover{
+    background-color: var(--button-shadow);
+    cursor: pointer;
+}
+
+.button-theme{
+    border: none;
+    background:inherit;
+    color: var(--textColor);
+    padding: .5rem .9rem;
+    font-size: large;
+    margin: .1rem;
+    border-radius: 1rem;
+    transition: background-color .3s ease-in-out;
+}
+
+.button-theme:hover{
+    background-color: var(--button-shadow);
+    cursor: pointer;
+}

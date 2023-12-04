@@ -7,8 +7,9 @@
     --textColor: #283041;
     --nav-backdround: #f0f8ffb8;
     --nav-border: #1e1e1e28;
-    --nav-shadow: rgba(213, 211, 211, 0.441);;
-    --nav-links: rgba(224, 221, 221, 0.441);;
+    --nav-shadow: rgba(213, 211, 211, 0.441);
+    --button-shadow: rgba(213, 211, 211, 0.441);
+    --nav-links: rgba(224, 221, 221, 0.441);
     /* --nav-shadow: #1e1e1e3b */
 }
 [theme='dark']{
@@ -17,6 +18,7 @@
     --nav-backdround: #283041f2;
     --nav-border: rgba(192, 192, 192, 0.651);
     --nav-shadow: #adadad28;
+    --button-shadow: #adadad28;
     --nav-links: #5f5e5e28;
     /* --nav-shadow: #1e1e1e3b */
 }

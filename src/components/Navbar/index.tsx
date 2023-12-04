@@ -41,7 +41,7 @@ const Navbar = () => {
         searchbar
       </div>
       <div className='navbar-right'>
-      <Button  onClick={()=>toggleTheme()}>{isDark?'light':'dark'}</Button>
+      <Button variant='theme'  onClick={()=>toggleTheme()}>{isDark?'light':'dark'}</Button>
       </div>
     </nav>
   )
