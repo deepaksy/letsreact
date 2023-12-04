@@ -6,7 +6,7 @@ const Navbar = () => {
   const {isDark,toggleTheme} = useTheme()
   return (
     <nav>
-      <Button variant='' onClick={()=>toggleTheme()}>{isDark?'light':'dark'}</Button>
+      <Button  onClick={()=>toggleTheme()}>{isDark?'light':'dark'}</Button>
     </nav>
   )
 }
