@@ -38,7 +38,11 @@ const Navbar = () => {
         <img src={ReactLogo} alt='react-logo' className='react-logo' />
       </div>
       <div className='navbar-search-bar'>
-        searchbar
+        <search>
+          <form>
+            <input name='search' id='search' placeholder='search' />
+          </form>
+        </search>
       </div>
       <div className='navbar-right'>
       <Button variant='theme'  onClick={()=>toggleTheme()}>{isDark?'light':'dark'}</Button>
