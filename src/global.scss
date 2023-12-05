@@ -10,6 +10,8 @@
     --nav-shadow: rgba(213, 211, 211, 0.441);
     --button-shadow: rgba(213, 211, 211, 0.441);
     --nav-links: rgba(224, 221, 221, 0.441);
+    --notice-background:#eafbf6;
+    --notice-shadow: rgba(33, 33, 33, 0.637);
     /* --nav-shadow: #1e1e1e3b */
 }
 [theme='dark']{
@@ -20,6 +22,8 @@
     --nav-shadow: #adadad28;
     --button-shadow: #adadad28;
     --nav-links: #5f5e5e28;
+    --notice-background: #21353aff;
+    --notice-shadow: rgb(47 46 46 / 25%);
     /* --nav-shadow: #1e1e1e3b */
 }
 
