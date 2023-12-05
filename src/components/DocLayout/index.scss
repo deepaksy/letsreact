@@ -1,5 +1,11 @@
 .docs-layout{
     margin: 1rem;
     font-family: 'roboto';
-    letter-spacing: .2rem;
+}
+
+
+@media only screen and (max-width:500px) {
+    .docs-layout{
+        margin: 0;
+    }
 }
