@@ -1,6 +1,8 @@
 import Notice from '../../components/Notice'
 import TestButton from '../../components/TestButton'
+import TestComponent from '../../content/Test/index.mdx'
 import './index.scss'
+
 
 const Test = () => {
   return (
@@ -12,6 +14,7 @@ const Test = () => {
       <h1>Hello world</h1>
 
       <TestButton/>
+      <TestComponent/>
     </div>
   )
 }

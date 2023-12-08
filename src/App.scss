@@ -6,3 +6,14 @@
 .sec1-left{
     display: flex;
 }
+
+
+@media only screen and (max-width:500px) {
+    .sec1{
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    
+}
