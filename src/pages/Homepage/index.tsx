@@ -1,4 +1,4 @@
-import Introduction from '../../content/homepage/Introduction.mdx'
+import Introduction from '../../content/homepage'
 
 const Homepage = () => {
   return (

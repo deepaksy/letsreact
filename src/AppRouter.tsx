@@ -11,6 +11,7 @@ import Navbar from './components/Navbar'
 import Homepage from './pages/Homepage'
 import Test from './pages/Test'
 import Layout from './components/Layout'
+import Contact from './pages/Contact'
 
 const AppRouter = () => {
   return (
@@ -22,6 +23,7 @@ const AppRouter = () => {
             <Route path='/docs' element={<Homepage/>}/>
             <Route path='/about' element={<About/>} />
             <Route path='/test' element={<Test/>} />
+            <Route path='/contact' element={<Contact/>} />
         </Routes>   
         </Layout>
     </Router>
