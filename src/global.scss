@@ -4,6 +4,7 @@
 
   :root{
     --backgroundColor: aliceblue;
+    --backgroundColor-secondary: rgb(226, 230, 235);
     --textColor: #283041;
     --nav-backdround: #f0f8fff2;
     --nav-border: #1e1e1e28;
@@ -15,9 +16,10 @@
     /* --nav-shadow: #1e1e1e3b */
 }
 [theme='dark']{
-    --backgroundColor: #283041;
+    --backgroundColor: #23272fff;
+    --backgroundColor-secondary: rgb(28, 31, 37);
     --textColor: aliceblue;
-    --nav-backdround: #283041f2;
+    --nav-backdround: rgba(35, 39, 47, 0.973);
     --nav-border: rgba(192, 192, 192, 0.651);
     --nav-shadow: #adadad00;
     --button-shadow: #adadad28;
