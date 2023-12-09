@@ -1,0 +1,15 @@
+{
+    "short_name": "letsreact",
+    "name": "Let's React",
+    "icons": [
+        {
+            "src": "react.svg",
+            "type": "image/svg", "size":"72X72"
+        }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff",
+    "form_factor":"wide"
+}
