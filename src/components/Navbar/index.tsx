@@ -11,14 +11,11 @@ const Navbar = () => {
   /** Handle Navbar sticky on scroll */
   const handleNavbarScroll = useCallback(() => {
     if(navRef.current!=null) {
-      console.log(navRef.current.offsetTop);
       if(navRef.current?.offsetTop > 2){
         navRef.current.classList.add('sticky')
-        console.log(`added sticky`);
       }
       else {
         navRef.current.classList.remove('sticky')
-        console.log(`removed sticky`);
       }
     }
   },[])

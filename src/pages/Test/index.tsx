@@ -1,3 +1,4 @@
+import Code from '../../components/Code'
 import Notice from '../../components/Notice'
 import TestButton from '../../components/TestButton'
 import TestComponent from '../../content/Test/index.mdx'
