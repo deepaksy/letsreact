@@ -1,0 +1,11 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 300px;
+}
+
+.right{
+    position: sticky;
+    top: 65px;
+    height: calc(23vh);
+    overflow-y: auto;
+}
