@@ -1,6 +1,7 @@
 import Code from '../../components/Code'
 import Notice from '../../components/Notice'
 import TestButton from '../../components/TestButton'
+import Toast from '../../components/Toast'
 import TestComponent from '../../content/Test/index.mdx'
 import './index.scss'
 
@@ -13,7 +14,6 @@ const Test = () => {
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur suscipit porro delectus dolore, quibusdam itaque ea dicta consequatur nemo reiciendis, doloribus at autem molestias similique! Qui placeat architecto commodi ut ab, deleniti quidem aliquam quibusdam odit? Sit quidem alias a, laboriosam, aliquam quae modi tempora quisquam et, blanditiis in dolores. Totam nulla ullam pariatur natus iure laborum molestias laboriosam delectus. Praesentium, optio similique ipsum delectus dolore sunt ex quas quam fugiat reprehenderit quos repellendus! Deserunt tempore, dolor nulla voluptatum pariatur natus laborum dolorem fugiat cumque ex voluptatem iste animi necessitatibus maxime inventore ullam autem odit! Possimus ratione illum consequatur nesciunt?
       </Notice>
       <h1>Hello world</h1>
-
       <TestButton/>
       <TestComponent/>
     </div>
