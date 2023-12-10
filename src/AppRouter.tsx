@@ -12,6 +12,7 @@ import Homepage from './pages/Homepage'
 import Test from './pages/Test'
 import Layout from './components/Layout'
 import Contact from './pages/Contact'
+import Grid from './pages/Grid'
 
 const AppRouter = () => {
   return (
@@ -24,6 +25,7 @@ const AppRouter = () => {
             <Route path='/about' element={<About/>} />
             <Route path='/test' element={<Test/>} />
             <Route path='/contact' element={<Contact/>} />
+            <Route path='/grid' element={<Grid/>} />
         </Routes>   
         </Layout>
     </Router>

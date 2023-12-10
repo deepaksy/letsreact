@@ -19,6 +19,8 @@
 @media only screen and (max-width:500px) {
     .code-container {
         display: block;
+        max-width: 90%;
+        width: auto;
     }
 
     .copy-button {
