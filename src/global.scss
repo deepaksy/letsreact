@@ -40,6 +40,13 @@ html,body{
     color: var(--textColor);
 }
 
+
+/** fix blue box on elements **/
+
+input,textarea,button,select,a {
+    -webkit-tap-highlight-color: transparent;
+}
+
 /** fixes hover situation */
 
 @media (hover: hover) {
