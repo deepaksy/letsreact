@@ -33,3 +33,9 @@
 .button-theme:active {
     transform: scale(.95);
 }
+
+button {
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
