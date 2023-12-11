@@ -1,11 +1,35 @@
 .grid-container{
     display: grid;
-    grid-template-columns: 1fr 300px;
+    grid-template-columns: 300px 1fr 300px;
 }
 
-.right{
+.right,.left{
     position: sticky;
     top: 65px;
     height: calc(23vh);
     overflow-y: auto;
+}
+
+.left {
+    position: sticky;
+    top: 65px;
+    height: 80vh;
+    overflow-y: auto;
+}
+
+
+@media only screen and (max-width:600px) {
+    .grid-container{
+        display: block;
+    }
+
+    .left{
+        position: relative;
+        display: none;
+    }
+
+    .right {
+        position: relative;
+        display: none;
+    }
 }
