@@ -3,6 +3,7 @@ import Button from '../Button'
 import './index.scss'
 import ReactLogo from '../../assets/react.svg'
 import { useCallback, useEffect, useLayoutEffect, useMemo, useRef } from 'react'
+import SearchBar from '../Searchbar'
 
 const Navbar = () => {
   const navRef = useRef<HTMLElement>(null)
@@ -35,11 +36,7 @@ const Navbar = () => {
         <img src={ReactLogo} alt='react-logo' className='react-logo' />
       </div>
       <div className='navbar-search-bar'>
-        <search>
-          <form>
-            <input name='search' id='search' placeholder='search' />
-          </form>
-        </search>
+        <SearchBar/>
       </div>
       <div className='navbar-right'>
       <Button variant='theme'  onClick={()=>toggleTheme()}>{isDark?'light':'dark'}</Button>
