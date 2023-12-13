@@ -13,6 +13,7 @@ import Test from './pages/Test'
 import Layout from './components/Layout'
 import Contact from './pages/Contact'
 import Grid from './pages/Grid'
+import Class from './content/Components/index.mdx'
 
 const AppRouter = () => {
   return (
@@ -26,6 +27,7 @@ const AppRouter = () => {
             <Route path='/test' element={<Test/>} />
             <Route path='/contact' element={<Contact/>} />
             <Route path='/grid' element={<Grid/>} />
+            <Route path='/class' element={<Class/>} />
         </Routes>   
         </Layout>
     </Router>
